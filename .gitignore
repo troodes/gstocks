@@ -10,3 +10,15 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+
+*.new
+*.orig
+*.rick
+
+private/
+credentials.json*
+token.json*
+
+# Eclipse files
+.project
