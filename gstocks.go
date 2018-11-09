@@ -14,7 +14,7 @@ import (
         "google.golang.org/api/sheets/v4"
 )
 
-// Retrieve a token, saves the token, then returns the generated client.
+// Retrieve a token, saves the token, then returns the generated client...
 func getClient(config *oauth2.Config) *http.Client {
         tokFile := "token.json"
         tok, err := tokenFromFile(tokFile)
